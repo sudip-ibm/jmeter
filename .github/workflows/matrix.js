@@ -47,7 +47,7 @@ matrix.addAxis({
   title: x => x.replace('-latest', ''),
   values: [
     // TODO: X11 is not available. Un-comment when https://github.com/burrunan/gradle-cache-action/issues/48 is resolved
-    // 'ubuntu-latest',
+    'linux-s390x',
     'windows-latest',
     'macos-latest'
   ]
